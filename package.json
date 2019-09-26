@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "dev": "docz dev",
-    "build": "docz build"
+    "build": "docz build",
+    "deploy": "git subtree push --prefix=.docz/dist origin gh-pages"
   },
   "dependencies": {
     "@emotion/core": "^10.0.14",
