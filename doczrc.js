@@ -1,5 +1,6 @@
 export default {
   typescript: true,
-  title: 'Docz Typescript',
+  base: '/components-docz/',
+  title: 'COMPONENTS',
   menu: ['Getting Started', 'Components', 'UI组件'],
 }
